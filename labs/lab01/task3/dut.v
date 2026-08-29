@@ -19,7 +19,8 @@ module dut(
   // ---- Option 2: gate-level carry-lookahead adder ----
   // cla4 U_IMPL (.a(a), .b(b), .cin(cin), .sum(sum), .cout(cout));
 
-  // ---- Option 3: dataflow carry-lookahead adder ----
+  // ---- Option 3: dataflow (assign-based) carry-lookahead adder ----
   // cla4_dataflow U_IMPL (.a(a), .b(b), .cin(cin), .sum(sum), .cout(cout));
 
 endmodule
+
